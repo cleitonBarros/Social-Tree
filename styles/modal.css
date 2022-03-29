@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+    --black: #0D114F;
+}
+.modal-wrapper.active{
+    visibility:visible;
+    opacity: 1;
+}
+.modal-wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+
+    background: rgba(4, 9, 17, .8);
+
+     visibility: hidden;
+     opacity:0;
+
+     z-index: 2000;
+  overflow: hidden;
+  
+}
+.modal-wrapper .modal{
+    width: min(35rem, 80%);
+    background: var(--body-bg-color);
+    margin: auto;
+
+    border-radius: .8rem;
+
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+
+    padding: 4rem;
+}
+.modal-wrapper .modal h2{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    color: var(--black);
+}
+.modal p{
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+    color: gray
+}
+ .texto p{
+    font-size: 1rem;
+    text-align: justify;
+    color: var(--black);
+    margin-bottom: 0.5rem;
+    
+}
+
+.modal-wrapper .modal .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+
+.modal-wrapper .modal .buttons > .button{
+
+    margin-right: .8rem;
+    border: 0.20rem solid var(--purple);
+    border-radius: 0.3rem;
+    color: var(--purple);
+    padding: 1rem 2rem;
+    line-height: 1;
+    cursor: pointer;
+    transition: 0.5s
+
+}.modal-wrapper .modal .buttons > .button:hover{
+
+   
+    border: 0.20rem solid var(--black);
+    color: var(--black);
+    
+}
+
+

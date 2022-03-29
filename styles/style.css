@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+body{
+    background: var(--body-bg-color);
+   
+   
+}
+
+ #header {
+    background: var(--body-bg-color);
+   
+    height: 5rem;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1000;
+    line-height:0;
+   
+ 
+}
+ #header .menu{
+display: flex;
+align-items: center;
+
+
+}
+
+ #header .menu a{
+    font-size: 1.125rem;
+}
+ #header .menu a.btn{
+    
+    color: var(--purple);
+    border: 0.125rem solid var(--purple);
+    border-radius: 0.20rem;
+    padding: 0.8rem 0  ;
+    width: 8rem;
+    text-align: center;
+    transition:0.3s;
+    margin-left: 1rem;
+
+}
+ #header .imagem{
+    width: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    font-family: 'Poppins', sans-serif;
+    padding: 1rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+    margin-top:6.25rem ;
+   
+}
+/*imagem*/
+.container .imagem{
+  
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    margin: 2rem 0 1.5rem 0;
+}
+.container .imagem img{
+    width: 80%;
+    margin-bottom: 2rem;
+    clip-path: circle();
+    
+}
+.container .imagem span a{
+   font-weight: 400;
+   color: var(--purple)
+}
+.container .links{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+   
+   
+}
+.links a.btn{
+    
+   font-weight: 500;
+   color: var(--purple);
+   border: 0.125rem solid var(--purple);
+   border-radius: 0.20rem;
+   padding: 1rem 0;
+   margin-bottom: 2rem;;
+   width: 30rem;
+   text-align: center;
+   transition:0.3s;
+
+   
+}
+.links a.tt:hover,
+.links a.yt:hover,
+.links a.insta:hover,
+.links a.face:hover{
+letter-spacing: 0.1rem;
+transform: perspective(50px) translateZ(5px);
+}
+
+ .social-midia {
+     width: 15rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin-top: 2rem;
+    
+}
+.social-midia a{
+    margin: 0.5rem;
+    transition: transform 0.5s;
+}
+.social-midia a.icon-github:hover,
+.social-midia a.icon-tt:hover,
+.social-midia a.icon-lk:hover,
+.social-midia a.icon-twitch:hover,
+.social-midia a.icon-insta:hover{
+    transform:translateY(-15px);
+    color: red;
+}
+/*footer*/
+footer{
+    border-top:1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background: black;
+    transition: 0.5s;
+    z-index:9999
+}
+footer  > div {
+    margin: 1rem 0;
+}
+footer > div a{
+text-transform: uppercase;
+}
+footer > div p,
+ footer > div a{
+ color: white;;
+ font-size: 1.15rem;
+ font-family: "Poppins";
+}
+
+
+
+
+@media( max-width:767px ){
+    .container{
+        padding: 4rem;
+    }
+   .links a.btn{
+        width: 22rem;
+    }
+    .social-midia{
+        margin-top: 0.5rem;
+        width: 20rem;
+    }
+    footer{
+        flex-direction: column;
+    }
+   
+
+}
+
+
