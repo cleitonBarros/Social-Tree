@@ -152,12 +152,17 @@ footer  > div {
 }
 footer > div a{
 text-transform: uppercase;
+transition: 0.5s
 }
 footer > div p,
  footer > div a{
  color: white;;
- font-size: 1.15rem;
+ font-size: 1rem;
  font-family: "Poppins";
+
+}
+footer > div a:hover{
+    letter-spacing: 1px;
 }
 
 
