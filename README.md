@@ -17,7 +17,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - JavaScript
 ## 💻 Projeto
 
-SDesafio RocketSeat "Social Tree", ouve implementaçôes a mais elemtnos  como o footer, models e a navbar
+SDesafio RocketSeat "Social Tree", houve a implementaçôes de mais elementos como o footer, models e a navbar
 
 ## 🔖 Layout
 Você pode visualizar o projeto  através [desse link]
