@@ -2,14 +2,14 @@
   <img  src="/assets/link-icon.png" width="60px" />
 </h1>
 
-
-<h1 align="center">
-  <img  src="/assets/web1.png" width="400px" height="00px" />
-  
+## 🖥️ Web
+<h1 align="center" display >
+  <img  src="/assets/web1.png" width="1200px"  /> 
 </h1>
 
+📱 Mobile
 <h1 align="center">
-  <img  src="/assets/mobile.png" width="400px" height="00px" />
+  <img  src="/assets/mobile.png" width="200px" />
 </h1>
 
 
