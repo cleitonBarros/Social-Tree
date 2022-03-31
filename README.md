@@ -4,8 +4,14 @@
 
 
 <h1 align="center">
-  <img  src="" width="1200px" height="00px" />
+  <img  src="/assets/web1.png" width="400px" height="00px" />
+  
 </h1>
+
+<h1 align="center">
+  <img  src="/assets/mobile.png" width="400px" height="00px" />
+</h1>
+
 
 
 ## 🚀 Tecnologias
