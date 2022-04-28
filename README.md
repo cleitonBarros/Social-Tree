@@ -26,7 +26,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 SDesafio RocketSeat "Social Tree", houve a implementaçôes de mais elementos como o footer, models e a navbar
 
 ## 🔖 Layout
-Você pode visualizar o projeto  através [desse link]
+Você pode visualizar o projeto  através [desse link]( https://cleitonbarros.github.io/Social-Tree/)
 
 
 
